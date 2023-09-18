@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#firstnav{
+    /* border: 2px solid black; */
+    height: 17vh;
+    background-color: #f2f2f2;
+}
+#googleimg{
+    width: 85px;
+    transform: translate(50px,15px);
+}
+#ana{
+    transform: translate(140px,-20px);
+    font-size: 25px;
+    font-family: roboto sans-serif;
+}
+#ptimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    transform: translate(1250px,-65px);
+}
+#email{
+    transform: translate(1090px,-40px);
+}
+#secoundnav{
+    height: 55px;
+    transform: translate(0px,-50px);
+    background-color: #FF7700;
+    color: white;
+    padding: 12px ;
+    font-family: sans-serif;
+}
+#secoundnav a{
+    color: white;
+}
+#thirdnav{
+    font-family: roboto, sans-serif;
+    padding: 0px 0px;
+    display: flex;  
+}
+#Learn{
+    font-size: 40px;
+    
+}
+#secdiv{
+    width: 50%;
+    height: 53.5vh;
+    padding: 40px 90px;
+    background-color: #f2f2f2;
+    transform: translate(0px,-50px);
+}
+#divhero{
+    background-image: url(images/hero_academy.jpg);
+    position: center;
+    background-size: cover;
+    height: 53.5vh;
+    width: 50%;
+    transform: translate(0px,-50px);
+}
+.gridcon2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px 400px;
+    gap: 20px;
+
+}
+.anal{
+color: white;
+}
+.grid-item{
+    background-color: #4285F4;
+    padding: 40px 70px;
+    margin-top: -50px;
+    /* transform: translate(-800px,900px); */
+}
+.grid-box{
+    background-color: white;
+    padding: 15px;
+}
+#logoimg{
+    height: 50px;
+}
+.grid-box1{
+    display: flex;
+    height: 200px;
+    background-color: #f2f2f2;
+}
+#grid2item{
+padding: 70px 90px;
+
+}
+
+#arrow{
+    height: 35px;
+    width: 35px;
+    transform: translate(190px,160px);
+}
+#arrow1{
+    height: 35px;
+    width: 35px;
+    transform: translate(195px,175px);
+}
+#arrow2{
+    height: 35px;
+    width: 35px;
+    transform: translate(195px,160px);
+}#arrow3{
+    height: 35px;
+    width: 35px;
+    transform: translate(200px,130px);
+}
+#arrow4{
+    height: 35px;
+    width: 35px;
+    transform: translate(195px,130px);
+}
+#arrow5{
+    height: 35px;
+    width: 35px;
+    transform: translate(200px,130px);
+}
+#hed{
+    padding: 20px;
+}
+#para{
+    padding: 20px;
+}
+#hed2{
+    padding: 20px;
+}
+#para2{
+    padding: 20px;
+}
+#hed3{
+    padding: 20px;
+}
+#para3{
+    padding: 20px;
+}
+#mini{
+    width: 100%;
+    height: 70vh;
+    padding: 30px 70px;
+}
+#mini1 h4 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+}
+#get{
+display: flex;
+gap: 10px;
+}
+#firebase{
+    width: 23%;
+    height: 25vh;
+    padding: 20px 0px;
+    background-color: #f2f2f2;
+}
+#firebase img{
+    width: 60px;
+    transform: translate(90px,0px);
+}
+#prec{
+    padding: 0px 40px;
+}
+#add{
+    /* border: 2px solid black; */
+    height: 300px;
+    background-color: #f2f2f2;
+}
+#add1{
+    padding: 50px 160px;
+    display: flex;
+    gap: 100px;
+}
+#add div #addi {
+    font-size: 20px;
+    padding: 20px 90px;
+    font-family: sans-serif;
+}
+#web{
+transform: translate(20px);
+}
+.blog{
+    transform: translate(30px);
+}
+#ul{
+    height: 60px;
+    padding: 25px 0px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    transform: translate(650px);
+}
+li{
+    list-style-type: none;
+}
+@media screen and (max-width: 475px) {
+html>body{
+    overflow-x: none;
+}
+/* .email{
+    display: none;
+} */
+#ptimg{
+    display: none;
+}
+#secoundnav{
+    height: 110px;
+    width: 100%
+}
+.gridcon2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#divhero{
+    display: none;
+}
+#secdiv{
+    padding: 40px;
+}
+#Learn{
+    font-size: 25px;
+    padding: 20px;
+}
+#par2{
+    padding-left: 40px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+#secdiv{
+    padding: 0px    ;
+    width: 100%;
+    height: 250px;
+}
+.anal{
+    font-size: 25px;
+}
+#grid-item{
+    padding: 10px 10px;
+}
+#email{
+    display: none;
+}
+#img1{
+    display: none;
+}
+#grid2item{
+    height: 200vh;
+    padding: 5px
+    
+}
+.grid-box1{
+    height: 60vh
+}
+#mini{
+    padding: 10px;
+}
+#get{
+    display: grid;
+    
+}
+#firebase{
+    width: 340px; 
+}
+#add{
+    margin-top: 500px;
+    height: 200vh;
+    width: 100%;
+    padding: 1px;
+}
+#add1{
+    display: grid;
+}
+#ul{
+    display: none;
+}
+#last{
+    display: flex;
+}
+}
